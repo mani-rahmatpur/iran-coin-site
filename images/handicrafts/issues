@@ -1,0 +1,9 @@
+"The wood-metal category page is not displaying images for three items (Khatam, Ghalamzani, and Monabbat) 
+because the required image files (-1.png and -2.png for each item key) are not present in the images/handicrafts/ folder.
+The JavaScript code is correctly looking for these files, but they don't exist in the repository."
+What the code actually does:
+The handicrafts-list.js file correctly:
+Looks for images at: ../images/handicrafts/khatam-1.png and khatam-2.png
+The JSON file correctly references "key": "khatam"
+The problem: The actual h.png image files were never uploaded to the repository
+The images that is named plcholder.png is not used in Js or json or HTML codes.
